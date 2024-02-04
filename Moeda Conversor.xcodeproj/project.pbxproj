@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D65730B2B70566400D56448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65730A2B70566400D56448 /* AppDelegate.swift */; };
+		7D65730D2B70566400D56448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65730C2B70566400D56448 /* SceneDelegate.swift */; };
+		7D65730F2B70566400D56448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65730E2B70566400D56448 /* ViewController.swift */; };
+		7D6573122B70566400D56448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6573102B70566400D56448 /* Main.storyboard */; };
+		7D6573152B70566400D56448 /* Moeda_Conversor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D6573132B70566400D56448 /* Moeda_Conversor.xcdatamodeld */; };
+		7D6573172B70566700D56448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D6573162B70566700D56448 /* Assets.xcassets */; };
+		7D65731A2B70566700D56448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D6573182B70566700D56448 /* LaunchScreen.storyboard */; };
+		7D6573252B70566700D56448 /* Moeda_ConversorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6573242B70566700D56448 /* Moeda_ConversorTests.swift */; };
+		7D65732F2B70566700D56448 /* Moeda_ConversorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65732E2B70566700D56448 /* Moeda_ConversorUITests.swift */; };
+		7D6573312B70566700D56448 /* Moeda_ConversorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6573302B70566700D56448 /* Moeda_ConversorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D6573212B70566700D56448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6572FF2B70566400D56448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6573062B70566400D56448;
+			remoteInfo = "Moeda Conversor";
+		};
+		7D65732B2B70566700D56448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6572FF2B70566400D56448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D6573062B70566400D56448;
+			remoteInfo = "Moeda Conversor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D6573072B70566400D56448 /* Moeda Conversor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moeda Conversor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D65730A2B70566400D56448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D65730C2B70566400D56448 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D65730E2B70566400D56448 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D6573112B70566400D56448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D6573142B70566400D56448 /* Moeda_Conversor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moeda_Conversor.xcdatamodel; sourceTree = "<group>"; };
+		7D6573162B70566700D56448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D6573192B70566700D56448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D65731B2B70566700D56448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D6573202B70566700D56448 /* Moeda ConversorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moeda ConversorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6573242B70566700D56448 /* Moeda_ConversorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moeda_ConversorTests.swift; sourceTree = "<group>"; };
+		7D65732A2B70566700D56448 /* Moeda ConversorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moeda ConversorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D65732E2B70566700D56448 /* Moeda_ConversorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moeda_ConversorUITests.swift; sourceTree = "<group>"; };
+		7D6573302B70566700D56448 /* Moeda_ConversorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moeda_ConversorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D6573042B70566400D56448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D65731D2B70566700D56448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6573272B70566700D56448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D6572FE2B70566400D56448 = {
+			isa = PBXGroup;
+			children = (
+				7D6573092B70566400D56448 /* Moeda Conversor */,
+				7D6573232B70566700D56448 /* Moeda ConversorTests */,
+				7D65732D2B70566700D56448 /* Moeda ConversorUITests */,
+				7D6573082B70566400D56448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D6573082B70566400D56448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D6573072B70566400D56448 /* Moeda Conversor.app */,
+				7D6573202B70566700D56448 /* Moeda ConversorTests.xctest */,
+				7D65732A2B70566700D56448 /* Moeda ConversorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D6573092B70566400D56448 /* Moeda Conversor */ = {
+			isa = PBXGroup;
+			children = (
+				7D65730A2B70566400D56448 /* AppDelegate.swift */,
+				7D65730C2B70566400D56448 /* SceneDelegate.swift */,
+				7D65730E2B70566400D56448 /* ViewController.swift */,
+				7D6573102B70566400D56448 /* Main.storyboard */,
+				7D6573162B70566700D56448 /* Assets.xcassets */,
+				7D6573182B70566700D56448 /* LaunchScreen.storyboard */,
+				7D65731B2B70566700D56448 /* Info.plist */,
+				7D6573132B70566400D56448 /* Moeda_Conversor.xcdatamodeld */,
+			);
+			path = "Moeda Conversor";
+			sourceTree = "<group>";
+		};
+		7D6573232B70566700D56448 /* Moeda ConversorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D6573242B70566700D56448 /* Moeda_ConversorTests.swift */,
+			);
+			path = "Moeda ConversorTests";
+			sourceTree = "<group>";
+		};
+		7D65732D2B70566700D56448 /* Moeda ConversorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D65732E2B70566700D56448 /* Moeda_ConversorUITests.swift */,
+				7D6573302B70566700D56448 /* Moeda_ConversorUITestsLaunchTests.swift */,
+			);
+			path = "Moeda ConversorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D6573062B70566400D56448 /* Moeda Conversor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6573342B70566700D56448 /* Build configuration list for PBXNativeTarget "Moeda Conversor" */;
+			buildPhases = (
+				7D6573032B70566400D56448 /* Sources */,
+				7D6573042B70566400D56448 /* Frameworks */,
+				7D6573052B70566400D56448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moeda Conversor";
+			productName = "Moeda Conversor";
+			productReference = 7D6573072B70566400D56448 /* Moeda Conversor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D65731F2B70566700D56448 /* Moeda ConversorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D6573372B70566700D56448 /* Build configuration list for PBXNativeTarget "Moeda ConversorTests" */;
+			buildPhases = (
+				7D65731C2B70566700D56448 /* Sources */,
+				7D65731D2B70566700D56448 /* Frameworks */,
+				7D65731E2B70566700D56448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D6573222B70566700D56448 /* PBXTargetDependency */,
+			);
+			name = "Moeda ConversorTests";
+			productName = "Moeda ConversorTests";
+			productReference = 7D6573202B70566700D56448 /* Moeda ConversorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D6573292B70566700D56448 /* Moeda ConversorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D65733A2B70566700D56448 /* Build configuration list for PBXNativeTarget "Moeda ConversorUITests" */;
+			buildPhases = (
+				7D6573262B70566700D56448 /* Sources */,
+				7D6573272B70566700D56448 /* Frameworks */,
+				7D6573282B70566700D56448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D65732C2B70566700D56448 /* PBXTargetDependency */,
+			);
+			name = "Moeda ConversorUITests";
+			productName = "Moeda ConversorUITests";
+			productReference = 7D65732A2B70566700D56448 /* Moeda ConversorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D6572FF2B70566400D56448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7D6573062B70566400D56448 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					7D65731F2B70566700D56448 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7D6573062B70566400D56448;
+					};
+					7D6573292B70566700D56448 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 7D6573062B70566400D56448;
+					};
+				};
+			};
+			buildConfigurationList = 7D6573022B70566400D56448 /* Build configuration list for PBXProject "Moeda Conversor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D6572FE2B70566400D56448;
+			productRefGroup = 7D6573082B70566400D56448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D6573062B70566400D56448 /* Moeda Conversor */,
+				7D65731F2B70566700D56448 /* Moeda ConversorTests */,
+				7D6573292B70566700D56448 /* Moeda ConversorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D6573052B70566400D56448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D65731A2B70566700D56448 /* LaunchScreen.storyboard in Resources */,
+				7D6573172B70566700D56448 /* Assets.xcassets in Resources */,
+				7D6573122B70566400D56448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D65731E2B70566700D56448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6573282B70566700D56448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D6573032B70566400D56448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D65730F2B70566400D56448 /* ViewController.swift in Sources */,
+				7D65730B2B70566400D56448 /* AppDelegate.swift in Sources */,
+				7D6573152B70566400D56448 /* Moeda_Conversor.xcdatamodeld in Sources */,
+				7D65730D2B70566400D56448 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D65731C2B70566700D56448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6573252B70566700D56448 /* Moeda_ConversorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6573262B70566700D56448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D65732F2B70566700D56448 /* Moeda_ConversorUITests.swift in Sources */,
+				7D6573312B70566700D56448 /* Moeda_ConversorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D6573222B70566700D56448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6573062B70566400D56448 /* Moeda Conversor */;
+			targetProxy = 7D6573212B70566700D56448 /* PBXContainerItemProxy */;
+		};
+		7D65732C2B70566700D56448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D6573062B70566400D56448 /* Moeda Conversor */;
+			targetProxy = 7D65732B2B70566700D56448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D6573102B70566400D56448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6573112B70566400D56448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D6573182B70566700D56448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D6573192B70566700D56448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D6573322B70566700D56448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D6573332B70566700D56448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D6573352B70566700D56448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X38G33KM7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moeda Conversor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alves.Patrick.Moeda-Conversor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D6573362B70566700D56448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X38G33KM7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Moeda Conversor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alves.Patrick.Moeda-Conversor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7D6573382B70566700D56448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X38G33KM7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alves.Patrick.Moeda-ConversorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moeda Conversor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moeda Conversor";
+			};
+			name = Debug;
+		};
+		7D6573392B70566700D56448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X38G33KM7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alves.Patrick.Moeda-ConversorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moeda Conversor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moeda Conversor";
+			};
+			name = Release;
+		};
+		7D65733B2B70566700D56448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X38G33KM7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alves.Patrick.Moeda-ConversorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Moeda Conversor";
+			};
+			name = Debug;
+		};
+		7D65733C2B70566700D56448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X38G33KM7M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alves.Patrick.Moeda-ConversorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Moeda Conversor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D6573022B70566400D56448 /* Build configuration list for PBXProject "Moeda Conversor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6573322B70566700D56448 /* Debug */,
+				7D6573332B70566700D56448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6573342B70566700D56448 /* Build configuration list for PBXNativeTarget "Moeda Conversor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6573352B70566700D56448 /* Debug */,
+				7D6573362B70566700D56448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D6573372B70566700D56448 /* Build configuration list for PBXNativeTarget "Moeda ConversorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6573382B70566700D56448 /* Debug */,
+				7D6573392B70566700D56448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D65733A2B70566700D56448 /* Build configuration list for PBXNativeTarget "Moeda ConversorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D65733B2B70566700D56448 /* Debug */,
+				7D65733C2B70566700D56448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D6573132B70566400D56448 /* Moeda_Conversor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D6573142B70566400D56448 /* Moeda_Conversor.xcdatamodel */,
+			);
+			currentVersion = 7D6573142B70566400D56448 /* Moeda_Conversor.xcdatamodel */;
+			path = Moeda_Conversor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D6572FF2B70566400D56448 /* Project object */;
+}
